@@ -1,0 +1,5 @@
+#mount remote media directory
+sshfs -C -o uid=$UID -o gid=$GROUPS raphael@80.254.167.140:/volume1/media /home/raphael/.mnt/media.elostirion/
+
+#unionfs mount with local media directory
+unionfs-fuse -o cow .mnt/media.local/=RW:.mnt/media.elostirion/=RO -o gid=1000 -o uid=1000 media
