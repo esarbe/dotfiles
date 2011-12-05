@@ -1,0 +1,1 @@
+../golang/indent/go.vim
