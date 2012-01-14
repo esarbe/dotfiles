@@ -5,6 +5,10 @@ set softtabstop=2
 
 set autoindent
 
+set nu
+
+hi CursorLine ctermbg=8
+
 filetype plugin indent on
 
 
