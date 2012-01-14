@@ -1,3 +1,11 @@
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	source "$HOME/.bashrc"
+    fi
+fi
+
 #mount remote media directory
 sshfs -C -o uid=$UID -o gid=$GROUPS raphael@80.254.167.140:/volume1/media /home/raphael/.mnt/media.elostirion/
 
