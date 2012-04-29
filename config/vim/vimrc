@@ -1,14 +1,14 @@
-
+set rtp+=/home/raphael/source/dotfiles/config/vim/golang
 set expandtab
 set shiftwidth=2
 set softtabstop=2
-
+set tabstop=2
+set paste
 set autoindent
 
 set nu
 
-hi CursorLine ctermbg=8
-
+colorscheme evening 
 filetype plugin indent on
 
 
