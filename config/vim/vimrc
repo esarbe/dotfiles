@@ -13,4 +13,6 @@ set nu
 colorscheme evening 
 filetype plugin indent on
 
-
+"close omnicomplete window when moving cursor
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
