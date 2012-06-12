@@ -1,1 +1,0 @@
-../golang/plugin/godoc.vim

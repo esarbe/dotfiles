@@ -1,1 +1,0 @@
-../golang/syntax/godoc.vim
