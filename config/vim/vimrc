@@ -1,4 +1,6 @@
-set rtp+=/home/raphael/source/dotfiles/config/vim/golang
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
 set expandtab
 set shiftwidth=2
 set softtabstop=2
