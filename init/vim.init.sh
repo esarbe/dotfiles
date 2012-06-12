@@ -2,5 +2,5 @@
 source _config.sh
 
 ln -s $DOTROOT/config/vim/vimrc $USERHOME/.vimrc
-mkdir $USERHOME/.vim
+ln -s $DOTROOT/config/vim/vimhome $USERHOME/.vim
 
