@@ -108,6 +108,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export GOROOT="$HOME/source/golang"
-export GOPATH="$HOME/source/golibs:$HOME/source/planning-agent"
+export GOPATH="$HOME/source/golibs"
 export PYTHONPATH="$HOME/lib/python2.7/site-packages:$PYTHONPATH"
 
